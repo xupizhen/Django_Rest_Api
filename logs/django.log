@@ -1,0 +1,13 @@
+INFO 2023-03-14 16:24:37,144 autoreload 677 Watching for file changes with StatReloader
+ERROR 2023-03-14 16:25:36,074 middlewares 43 {'code': 500, 'message': '服务器异常', 'data': {}}
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.11/lib/python3.11/site-packages/django/core/handlers/base.py", line 197, in _get_response
+    response = wrapped_callback(request, *callback_args, **callback_kwargs)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/xupizhen/Downloads/PYTHON_API/Django_Rest_Api/myApp/views.py", line 9, in index
+    raise Exception("这是一个错误")
+Exception: 这是一个错误
+INFO 2023-03-14 16:25:36,078 basehttp 187 "GET / HTTP/1.1" 200 70
+INFO 2023-03-14 16:25:56,211 autoreload 266 /Users/xupizhen/Downloads/PYTHON_API/Django_Rest_Api/myApp/views.py changed, reloading.
+INFO 2023-03-14 16:25:56,454 autoreload 677 Watching for file changes with StatReloader
+INFO 2023-03-14 16:26:00,839 basehttp 187 "GET / HTTP/1.1" 200 19
